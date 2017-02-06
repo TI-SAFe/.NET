@@ -1,7 +1,7 @@
 # .NET
 Exemplo de integração SAFe com C# .NET.
 
-###### application/json, text/json
+`application/json, text/json`
 ```C#
 var client = new HttpClient { BaseAddress = new Uri(urlServico) };
 xclient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
